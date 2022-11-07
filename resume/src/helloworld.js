@@ -20,6 +20,7 @@ const Element = (
     Hello, {FormatName(user)}!
   </h1>
   <h2>Good day to you</h2>
+  <h3> It is {new Date().toTimeString()}.</h3>
   </div>
 );
 export default Element;
