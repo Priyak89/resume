@@ -4,6 +4,7 @@ import './App.css';
 import Element from './helloworld';
 import People from './components';
 import Clockdisp from './clock';
+import Toggle from './toggle';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     { Element }
     <People/>
     <Clockdisp/>
+    <Toggle/>
     </div>
   );
 }
