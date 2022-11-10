@@ -6,14 +6,15 @@ import './App.css';
 //import Clockdisp from './clock';
 //import Toggle from './toggle';
 //import Calculator from './temperature';
-import Togglebutton from './togglechallenge';
+//import Togglebutton from './togglechallenge';
+import Binding from './twowaybinding';
 import Names from './arraymap';
 
 function App() {
   return (
     <div className="App">
 
-   <Togglebutton/>
+   <Binding/>
 
     </div>
   );
