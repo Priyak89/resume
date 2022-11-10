@@ -7,14 +7,15 @@ import './App.css';
 //import Toggle from './toggle';
 //import Calculator from './temperature';
 //import Togglebutton from './togglechallenge';
-import Binding from './twowaybinding';
+//import Binding from './twowaybinding';
+import Buttonexercise from './buttonexercise';
 import Names from './arraymap';
 
 function App() {
   return (
     <div className="App">
 
-   <Binding/>
+   <Buttonexercise/>
 
     </div>
   );
