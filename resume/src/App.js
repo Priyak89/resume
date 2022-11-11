@@ -12,13 +12,13 @@ import Buttonexercise from './buttonexercise';
 import Names from './arraymap';
 import Parent from './callbackimp';
 import Application from './callbackdisplay';
-
+import Calculator from './calculator';
+import Mycounter from './counter';
 function App() {
   return (
     <div className="App">
-
-   <Parent/>
-<Application/>
+<Calculator/>
+<Mycounter/>
     </div>
   );
 }
