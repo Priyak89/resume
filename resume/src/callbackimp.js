@@ -1,0 +1,30 @@
+import React, { Component } from 'react';
+function Child({setValue}) {
+    return (
+      <>
+        <div>Child</div>
+        <button onClick={()=>setValue("I changed the parent")}>Change Parent Value</button>
+      </>
+    );
+  }
+  
+  function Parent() {
+    const [value, setValue] = React.useState(
+      "I need to be updated from my child"
+    );
+  
+    return (
+      <>
+        <h3>Update Parent State Challenge (Using Callback)</h3>
+        <div className="wrapper">
+          <div>Parent</div>
+          <div className="box-wrapper" >{value}</div>
+        </div>
+  
+        <div className="wrapper">
+          <Child setValue={setValue} />
+        </div>
+      </>
+    );
+  }
+  export default Parent;

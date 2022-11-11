@@ -10,12 +10,13 @@ import './App.css';
 //import Binding from './twowaybinding';
 import Buttonexercise from './buttonexercise';
 import Names from './arraymap';
+import Parent from './callbackimp';
 
 function App() {
   return (
     <div className="App">
 
-   <Buttonexercise/>
+   <Parent/>
 
     </div>
   );
