@@ -14,11 +14,13 @@ import Parent from './callbackimp';
 import Application from './callbackdisplay';
 import Calculator from './calculator';
 import Mycounter from './counter';
+import Apidata from './api';
+import MyCalculator from './calculatorapp';
 function App() {
   return (
     <div className="App">
-<Calculator/>
-<Mycounter/>
+     <MyCalculator/>
+
     </div>
   );
 }

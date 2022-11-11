@@ -6,7 +6,7 @@ function Calculator() {
 
     function calculateSum()
     {
-        setTotal(number1+number2);
+        setTotal(parseInt(number1)+parseInt(number2));
     }
   
     return (
