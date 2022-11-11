@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-function Child({setValue}) {
+/** 
+  Challenge: Parent text (I need to be updated from my child) should be 
+  updated when Child button below is clicked. Feel free to use any string to 
+  update the parent's current string.**/
+function Child({setValue1}) {
     return (
       <>
         <div>Child</div>
-        <button onClick={()=>setValue("I changed the parent")}>Change Parent Value</button>
+        <button onClick={()=>setValue1("I changed the parent")}>Change Parent Value</button>
       </>
     );
   }
@@ -22,7 +26,7 @@ function Child({setValue}) {
         </div>
   
         <div className="wrapper">
-          <Child setValue={setValue} />
+          <Child setValue1={setValue} />
         </div>
       </>
     );

@@ -11,13 +11,14 @@ import './App.css';
 import Buttonexercise from './buttonexercise';
 import Names from './arraymap';
 import Parent from './callbackimp';
+import Application from './callbackdisplay';
 
 function App() {
   return (
     <div className="App">
 
    <Parent/>
-
+<Application/>
     </div>
   );
 }
