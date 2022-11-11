@@ -14,9 +14,11 @@ import Parent from './callbackimp';
 import Application from './callbackdisplay';
 import Calculator from './calculator';
 import Mycounter from './counter';
+import Apidata from './api';
 function App() {
   return (
     <div className="App">
+     
 <Calculator/>
 <Mycounter/>
     </div>
