@@ -10,13 +10,15 @@ import './App.css';
 //import Binding from './twowaybinding';
 import Buttonexercise from './buttonexercise';
 import Names from './arraymap';
+import Parent from './callbackimp';
+import Application from './callbackdisplay';
 
 function App() {
   return (
     <div className="App">
 
-   <Buttonexercise/>
-
+   <Parent/>
+<Application/>
     </div>
   );
 }
