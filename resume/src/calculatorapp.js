@@ -39,6 +39,8 @@ function MyCalculator()
             <input placeholder='Second Number' type="number" value={number2} onChange={(e)=>setNumber2(e.target.value)}></input>
             <input placeholder='Result' type="number" value={result} disabled={true}></input>
             <h2>Result:{result|| ""}</h2>
+            <input type= "radio" id="number1" value = "number 1" >First Number</input>
+            <input type= "radio" id="number2" value = "number 2" >Second Number</input>
             <button onClick={Addtion}>Add</button>
             <button onClick={Subtraction}>Subtract</button>
             <button onClick={Multiplication}>Multiply</button>
@@ -58,5 +60,5 @@ function MyCalculator()
 
         </div>
     );
-}
+    }
 export default MyCalculator;
