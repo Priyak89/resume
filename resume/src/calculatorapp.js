@@ -39,16 +39,18 @@ function MyCalculator()
             <input placeholder='Second Number' type="number" value={number2} onChange={(e)=>setNumber2(e.target.value)}></input>
             <input placeholder='Result' type="number" value={result} disabled={true}></input>
             <h2>Result:{result|| ""}</h2>
-            <input type= "radio" id="number1" value = "number 1" >First Number</input>
-            <input type= "radio" id="number2" value = "number 2" >Second Number</input>
-            <button onClick={Addtion}>Add</button>
-            <button onClick={Subtraction}>Subtract</button>
-            <button onClick={Multiplication}>Multiply</button>
-            <button onClick={Division}>Divide</button>
-            <button onClick={Percentage}>Percentage</button>
-            <button onClick={Reset}>Reset</button>
-            <button>0</button>
-            <button>1</button>
+            <input type= "radio" name="calc" id="number1" value = "number1" onChange={()=>setNumber1(number1)} ></input>
+            <label for="number1">Number 1 </label><br></br>
+            <input type= "radio"  name="calc" id="number2" value = "number2" onChange={()=>setNumber2(number2)} ></input>
+            <label for="number2">Number 2 </label><br></br>
+            <button onClick={Addtion}>Add</button><br></br>
+            <button onClick={Subtraction}>Subtract</button><br></br>
+            <button onClick={Multiplication}>Multiply</button><br></br>
+            <button onClick={Division}>Divide</button><br></br>
+            <button onClick={Percentage}>Percentage</button><br></br>
+            <button onClick={Reset}>Reset</button><br></br>
+            <button value={0} type ="number">0</button>
+            <button value={1} onClick={()=>setNumber1(1)||setNumber2(1)} >1</button>
             <button>2</button>
             <button>3</button>
             <button>4</button>
