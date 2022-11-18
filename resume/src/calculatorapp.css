@@ -2,6 +2,8 @@
                 body
                 {
                     background-color:rgb(187, 150, 198);
+                    align-items: center;
+                    justify-content: center
                 }
 
            
