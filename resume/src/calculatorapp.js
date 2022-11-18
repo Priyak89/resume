@@ -84,16 +84,20 @@ function MyCalculator() {
       <br></br>
       <button onClick={Reset}>Reset</button>
       <br></br>
-      <button>0</button>
-      <button onClick={() => ClickHandler(1)}>1</button>
-      <button onClick={() => ClickHandler(2)}>2</button>
-      <button onClick={() => ClickHandler(3)}>3</button>
-      <button onClick={() => ClickHandler(4)}>4</button>
-      <button onClick={() => ClickHandler(5)}>5</button>
-      <button onClick={() => ClickHandler(6)}>6</button>
-      <button onClick={() => ClickHandler(7)}>7</button>
-      <button onClick={() => ClickHandler(8)}>8</button>
-      <button onClick={() => ClickHandler(9)}>9</button>
+      <p>
+        <button onClick={() => ClickHandler(0)}>0</button>
+        <button onClick={() => ClickHandler(1)}>1</button>
+        <button onClick={() => ClickHandler(2)}>2</button>
+        <button onClick={() => ClickHandler(3)}>3</button>
+        <br></br>
+        <button onClick={() => ClickHandler(4)}>4</button>
+        <button onClick={() => ClickHandler(5)}>5</button>
+        <button onClick={() => ClickHandler(6)}>6</button>
+        <br></br>
+        <button onClick={() => ClickHandler(7)}>7</button>
+        <button onClick={() => ClickHandler(8)}>8</button>
+        <button onClick={() => ClickHandler(9)}>9</button>
+      </p>
     </div>
   );
 }
