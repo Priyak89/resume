@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import './calculatorapp.css';
 function MyCalculator()
 {
     const [number1, setNumber1] = React.useState();
     const [number2, setNumber2] = React.useState();
     const [result, setResult] = React.useState(0);
+    const[buttonpress,setButtonpress]=React.useState();
+
     function Addtion()
     {
         setResult(parseInt(number1)+parseInt(number2));
@@ -31,7 +34,20 @@ function MyCalculator()
         setResult(0);
         
     }
+    function ClickHandler(getNumber)
+    
+    {
+        if (getNumber==="1")
+            setNumber1(1);
+            
+    else
+    if (getNumber==="2")
+    {
+        setNumber1(2);
+    }
+}
 
+    
     return(
         <div>
             <h3>My Calculator</h3>
@@ -49,9 +65,9 @@ function MyCalculator()
             <button onClick={Division}>Divide</button><br></br>
             <button onClick={Percentage}>Percentage</button><br></br>
             <button onClick={Reset}>Reset</button><br></br>
-            <button value={0} type ="number">0</button>
-            <button value={1} onClick={()=>setNumber1(1)||setNumber2(1)} >1</button>
-            <button>2</button>
+            <button id="1" >0</button>
+            <button id="2" onClick={()=>ClickHandler(1)}>1</button>
+            <button id="3" onClick={()=>ClickHandler(2)}>2</button>
             <button>3</button>
             <button>4</button>
             <button>5</button>
