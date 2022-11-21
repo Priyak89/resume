@@ -84,7 +84,7 @@ function MyCalculator() {
       <br></br>
       <button onClick={Reset}>Reset</button>
       <br></br>
-      <p>
+      <p class="round1">
         <button onClick={() => ClickHandler(0)}>0</button>
         <button onClick={() => ClickHandler(1)}>1</button>
         <button onClick={() => ClickHandler(2)}>2</button>
