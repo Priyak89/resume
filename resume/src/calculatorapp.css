@@ -1,14 +1,31 @@
 
-                body
-                {
-                    background-color:rgb(187, 150, 198);
-                    align-items: center;
-                    justify-content: center
-                }
-                p.round1{
-                    border: 2px solid red;
-                    border-radius: 5px;
-                    padding: 5px;
-                }
+body{
+    background-color:rgb(136, 147, 146);
+    align-items: center;
+    justify-content: center
+}
 
-           
+
+table{
+margin:auto;
+border-spacing: 6px;
+}
+.row3 {
+width: 140px;
+height: 40px;
+font-size: 25px;
+ }
+ .row4{
+    width: 140px;
+    height: 40px;
+    font-size: 25px;
+ }
+ .row0{
+    width: 640px;
+    height: 40px;
+    font-size: 25px;
+ }
+ .row2{
+    width: 25px;
+    height: 15px; 
+ }
