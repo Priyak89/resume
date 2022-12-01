@@ -4,8 +4,6 @@ body{
     align-items: center;
     justify-content: center
 }
-
-
 table{
 margin:auto;
 border-spacing: 6px;
@@ -51,9 +49,9 @@ font-size: 25px;
 
  }
  .row3:nth-child(odd),.rowreset:nth-child(odd){ 
-    background-color: rgb(164, 227, 236);
+    background-color: rgb(131, 120, 151);
 
  }
  .row3:nth-child(even),.rowreset:nth-child(even){
-    background-color:rgb(230, 169, 226);
+    background-color:rgb(153, 226, 153);
  }
