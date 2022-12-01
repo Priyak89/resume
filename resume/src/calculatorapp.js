@@ -39,23 +39,26 @@ function MyCalculator() {
         <tr>
           <td>
             <input
+              class="row1"
               placeholder="First Number"
               type="number"
               value={number1}
               onChange={(e) => setNumber1(e.target.value)}
             ></input>
-          </td>
 
-          <td>
             <input
+              class="row1"
               placeholder="Second Number"
               type="number"
               value={number2}
               onChange={(e) => setNumber2(e.target.value)}
             ></input>
           </td>
+        </tr>
+        <tr>
           <td>
             <input
+              class="row1"
               placeholder="Result"
               type="number"
               value={result}
@@ -64,7 +67,7 @@ function MyCalculator() {
           </td>
         </tr>
         <tr>
-          <td colspan="2">
+          <td>
             <input
               class="row2"
               type="radio"
@@ -75,8 +78,7 @@ function MyCalculator() {
             ></input>
 
             <label for="number1">Number 1 </label>
-          </td>
-          <td colspan="2">
+
             <input
               class="row2"
               type="radio"
@@ -94,89 +96,78 @@ function MyCalculator() {
             <button class="row3" onClick={Addtion}>
               +
             </button>
-          </td>
-          <td>
+
             <button class="row3" onClick={Subtraction}>
               -
             </button>
-          </td>
-          <td>
+
             <button class="row3" onClick={Multiplication}>
               *
             </button>
-          </td>
 
-          <td>
             <button class="row3" onClick={Division}>
               /
             </button>
           </td>
         </tr>
         <tr>
-          <td colSpan="2">
-            <button class="row4" onClick={Percentage}>
+          <td>
+            <button class="rowreset" onClick={Percentage}>
               %
             </button>
-          </td>
-          <td colSpan="2">
-            <button class="row4" onClick={Reset}>
+
+            <button class="rowreset" onClick={Reset}>
               R
             </button>
           </td>
         </tr>
         <tr>
-          <td colspan="1.5">
-            <button class="row4" onClick={() => ClickHandler(1)}>
+          <td>
+            <button class="row123" onClick={() => ClickHandler(1)}>
               1
             </button>
-          </td>
-          <td colspan="1.5">
-            <button class="row4" onClick={() => ClickHandler(2)}>
+
+            <button class="row123" onClick={() => ClickHandler(2)}>
               2
             </button>
-          </td>
-          <td colspan="1.5">
-            <button class="row4" onClick={() => ClickHandler(3)}>
+
+            <button class="row123" onClick={() => ClickHandler(3)}>
               3
             </button>
           </td>
         </tr>
         <tr>
           <td>
-            <button class="row4" onClick={() => ClickHandler(4)}>
+            <button class="row456" onClick={() => ClickHandler(4)}>
               4
             </button>
-          </td>
-          <td>
-            <button class="row4" onClick={() => ClickHandler(5)}>
+
+            <button class="row456" onClick={() => ClickHandler(5)}>
               5
             </button>
-          </td>
-          <td>
-            <button class="row4" onClick={() => ClickHandler(6)}>
+
+            <button class="row456" onClick={() => ClickHandler(6)}>
               6
             </button>
           </td>
         </tr>
         <tr>
           <td>
-            <button class="row4" onClick={() => ClickHandler(7)}>
+            <button class="row789" onClick={() => ClickHandler(7)}>
               7
             </button>
-          </td>
-          <td>
-            <button class="row4" onClick={() => ClickHandler(8)}>
+
+            <button class="row789" onClick={() => ClickHandler(8)}>
               8
             </button>
-          </td>
-          <td>
-            <button class="row4" onClick={() => ClickHandler(9)}>
+
+            <button class="row789" onClick={() => ClickHandler(9)}>
               9
             </button>
           </td>
         </tr>
         <tr>
-          <td colspan="4">
+          <td>
             <button class="row0" onClick={() => ClickHandler(0)}>
               0
             </button>

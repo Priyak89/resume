@@ -4,28 +4,54 @@ body{
     align-items: center;
     justify-content: center
 }
-
-
 table{
 margin:auto;
 border-spacing: 6px;
 }
 .row3 {
-width: 140px;
+width: 75px;
 height: 40px;
 font-size: 25px;
+
+
  }
- .row4{
-    width: 140px;
+ .row123{
+    width: 100px;
     height: 40px;
     font-size: 25px;
+    background-color:beige;
+ }
+ .row456{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    background-color:bisque;
+ }
+ .row789{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    background-color:darkkhaki;
  }
  .row0{
-    width: 640px;
+    width: 300px;
     height: 40px;
     font-size: 25px;
  }
- .row2{
-    width: 25px;
-    height: 15px; 
+ 
+ .row1{
+    height: 25px;
+ }
+ .rowreset{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+
+ }
+ .row3:nth-child(odd),.rowreset:nth-child(odd){ 
+    background-color: rgb(131, 120, 151);
+
+ }
+ .row3:nth-child(even),.rowreset:nth-child(even){
+    background-color:rgb(153, 226, 153);
  }
