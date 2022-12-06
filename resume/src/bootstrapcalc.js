@@ -113,40 +113,67 @@ function MyCalculatorBoot() {
             R
           </button>
         </div>
-        <div class="row-sm-3">
-          <button class="row123 col-sm-4" onClick={() => ClickHandler(1)}>
+        <div class="row">
+          <button
+            class="row123 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(1)}
+          >
             1
           </button>
 
-          <button class="row123 col-sm-4" onClick={() => ClickHandler(2)}>
+          <button
+            class="row123 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(2)}
+          >
             2
           </button>
 
-          <button class="row123 col-sm-4" onClick={() => ClickHandler(3)}>
+          <button
+            class="row123 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(3)}
+          >
             3
           </button>
 
-          <button class="row456 col-sm-4" onClick={() => ClickHandler(4)}>
+          <button
+            class="row456 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(4)}
+          >
             4
           </button>
 
-          <button class="row456 col-sm-4" onClick={() => ClickHandler(5)}>
+          <button
+            class="row456 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(5)}
+          >
             5
           </button>
 
-          <button class="row456 col-sm-4" onClick={() => ClickHandler(6)}>
+          <button
+            class="row456 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(6)}
+          >
             6
           </button>
 
-          <button class="row789 col-sm-4" onClick={() => ClickHandler(7)}>
+          <button
+            class="row789 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(7)}
+          >
             7
           </button>
 
-          <button class="row789 col-sm-4" onClick={() => ClickHandler(8)}>
+          <button
+            class="row789 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(8)}
+          >
             8
           </button>
 
-          <button class="row789 col-sm-4" onClick={() => ClickHandler(9)}>
+          <button
+            class="row789 col-sm-4 col-md-3"
+            onClick={() => ClickHandler(9)}
+          >
             9
           </button>
         </div>
